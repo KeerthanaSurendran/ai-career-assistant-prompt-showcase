@@ -1,0 +1,78 @@
+# Prompt: 
+Using the resume below, generate THREE different 3–4 sentence professional summaries optimized for the provided job description. Then:
+1) Critique each version for tone, clarity, specificity, and keyword alignment.
+2) Select the strongest version and explain briefly (3–5 bullets) why it wins.
+3) Output in this structure:
+
+
+## Candidates
+- V1: ...
+- V2: ...
+- V3: ...
+
+
+## Critique
+- V1: ...
+- V2: ...
+- V3: ...
+
+
+## Winner
+- Final Summary: ...
+- Rationale: (bullets)
+
+# Sample Resume: 
+Name: Alex Sharma | Front-End Developer (6+ yrs)
+Experience: Cognizant — Project Lead & FE Dev (2019–2025)
+- Led React/TS rewrite; Lighthouse perf +28%, conversion +20%.
+- Built design system (Storybook), reduced UI bugs 32%.
+- Implemented Jest/Cypress; CI with GitHub Actions.
+Skills: React, TypeScript, Next.js, Redux, Tailwind, Jest, Cypress, Webpack, Accessibility (WCAG), REST/GraphQL.
+
+Output:
+## Candidates
+
+* **V1:** Front-End Developer with 6+ years at Cognizant, driving high-impact UI transformations. Spearheaded a React/TypeScript migration that boosted Lighthouse scores by 28% and raised conversions 20%. Skilled in building scalable design systems, modern testing frameworks, and CI/CD pipelines. Adept in React, Next.js, Redux, and accessibility standards to deliver performant, user-centered products.
+
+* **V2:** Experienced Front-End Developer and Project Lead with a proven track record of modernizing enterprise-scale applications. Expert in React, TypeScript, and Next.js, with hands-on success in performance optimization, design system creation, and automated testing. Delivered measurable results, including reduced UI bugs by 32% and enhanced conversion rates by 20%. Strong advocate of accessibility and agile delivery.
+
+* **V3:** Results-driven Front-End Developer with 6+ years in delivering performant, accessible, and scalable web applications. At Cognizant, led React/TS adoption, built Storybook-powered design systems, and implemented Jest/Cypress testing integrated into CI/CD pipelines. Achieved tangible business gains through improved site performance and conversion metrics. Skilled collaborator who bridges technical execution with business goals.
+
+---
+
+## Critique
+
+* **V1:**
+
+  * *Tone:* Impactful, metrics-focused, slightly formal.
+  * *Clarity:* Very clear; highlights outcomes and tools.
+  * *Specificity:* Includes numbers (28%, 20%); good detail.
+  * *Keyword alignment:* Strong—React, TypeScript, Next.js, accessibility, testing.
+
+* **V2:**
+
+  * *Tone:* Balanced, professional, leadership emphasis.
+  * *Clarity:* Clear but slightly generic in spots ("proven track record," "expert").
+  * *Specificity:* Has numbers (32%, 20%) but leans on broad phrasing.
+  * *Keyword alignment:* Strong but could better highlight CI/CD and modern frameworks.
+
+* **V3:**
+
+  * *Tone:* Polished, collaborative, forward-looking.
+  * *Clarity:* Excellent; flows smoothly without jargon.
+  * *Specificity:* Strong detail on tools and workflows, with business impact.
+  * *Keyword alignment:* Excellent—mentions React, TS, Next.js, Storybook, CI/CD, accessibility.
+
+---
+
+## Winner
+
+* **Final Summary:** Results-driven Front-End Developer with 6+ years in delivering performant, accessible, and scalable web applications. At Cognizant, led React/TS adoption, built Storybook-powered design systems, and implemented Jest/Cypress testing integrated into CI/CD pipelines. Achieved tangible business gains through improved site performance and conversion metrics. Skilled collaborator who bridges technical execution with business goals.
+
+* **Rationale:**
+
+  * Smoothly balances technical expertise with business impact.
+  * Includes strong keywords (React, TypeScript, Next.js, Storybook, CI/CD, accessibility).
+  * Provides measurable achievements without being overloaded with numbers.
+  * Positions candidate as both hands-on and collaborative, appealing to hiring managers.
+  * Reads natural and confident—neither too stiff nor too vague.
