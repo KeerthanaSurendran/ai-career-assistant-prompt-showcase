@@ -1,0 +1,49 @@
+PROMPT:
+You are a career branding assistant. Maintain a confident, warm, concise tone.
+
+Create:
+1) Five LinkedIn headlines (220 characters max each) tailored to the JD.
+2) A 120‑word cold email to a hiring manager expressing interest, referencing 2–3 JD keywords, and 1 quantified achievement from the resume.
+Return as:
+## LinkedIn Headlines
+- ...
+## Cold Email
+
+Resume:
+Name: Alex Sharma | Front-End Developer (6+ yrs)
+Experience: Cognizant — Project Lead & FE Dev (2019–2025)
+- Led React/TS rewrite; Lighthouse perf +28%, conversion +20%.
+- Built design system (Storybook), reduced UI bugs 32%.
+- Implemented Jest/Cypress; CI with GitHub Actions.
+Skills: React, TypeScript, Next.js, Redux, Tailwind, Jest, Cypress, Webpack, Accessibility (WCAG), REST/GraphQL.
+
+JD:
+Senior Front-End Engineer @ FinTech
+- React + Next.js + TypeScript, state mgmt, performance optimization.
+- Accessibility (WCAG 2.1), testing (Jest/Cypress), CI/CD.
+- Collaborate with design; component libraries; analytics.
+- Nice to have: Node.js APIs, AWS basics.
+
+OUTPUT:
+## LinkedIn Headlines
+
+* Senior Front-End Engineer | React • Next.js • TypeScript | Performance Optimization & Accessibility Champion | Proven +28% Lighthouse, +20% Conversion Gains
+* Front-End Developer (6+ yrs) | Scalable UI Architect | React, Redux, Next.js, WCAG | Testing & CI/CD Advocate | FinTech-Ready Engineering Leader
+* Building High-Performance, Accessible Web Apps | React/TS/Next.js Expert | Reduced UI Bugs 32% with Design Systems | Skilled in Analytics & Collaboration
+* Front-End Engineer | React • TypeScript • Next.js | Performance, Accessibility (WCAG 2.1), Testing, CI/CD | Driving Scalable, User-Centered Design Systems
+* Project Lead & Front-End Developer | Delivered +28% Site Perf | React, Storybook, Jest/Cypress | Passion for FinTech-Scale Engineering Excellence
+
+---
+
+## Cold Email
+
+Hi \[Hiring Manager’s Name],
+
+I’m reaching out to express my interest in the Senior Front-End Engineer role at \[Company]. With 6+ years building performant, accessible apps in React, Next.js, and TypeScript, I bring both technical depth and measurable results. At Cognizant, I led a React/TS migration that improved Lighthouse scores by 28% and increased conversion rates by 20%. I also built a Storybook-driven component library and integrated Jest/Cypress into CI/CD pipelines, aligning closely with your focus on performance optimization, accessibility, and robust testing.
+
+I’d love to discuss how my background can help drive seamless, scalable experiences for your FinTech customers.
+
+Best regards,
+Alex Sharma
+
+---
