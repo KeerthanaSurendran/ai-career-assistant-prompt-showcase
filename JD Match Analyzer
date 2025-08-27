@@ -1,0 +1,55 @@
+PROMPT:
+You are a meticulous hiring screener. Compare the candidate’s resume to the job description.
+
+Name: Alex Sharma | Front-End Developer (6+ yrs)
+Experience: Cognizant — Project Lead & FE Dev (2019–2025)
+- Led React/TS rewrite; Lighthouse perf +28%, conversion +20%.
+- Built design system (Storybook), reduced UI bugs 32%.
+- Implemented Jest/Cypress; CI with GitHub Actions.
+Skills: React, TypeScript, Next.js, Redux, Tailwind, Jest, Cypress, Webpack, Accessibility (WCAG), REST/GraphQL.
+
+Senior Front-End Engineer @ FinTech
+- React + Next.js + TypeScript, state mgmt, performance optimization.
+- Accessibility (WCAG 2.1), testing (Jest/Cypress), CI/CD.
+- Collaborate with design; component libraries; analytics.
+- Nice to have: Node.js APIs, AWS basics.
+
+OUTPUT:
+Here’s a hiring-screener style comparison of **Alex Sharma’s resume vs. the Senior Front-End Engineer (FinTech) job description**:
+
+---
+
+### **Direct Matches (Strong Fit)**
+
+* **React + Next.js + TypeScript:** ✅ Hands-on experience leading a React/TS rewrite with Next.js.
+* **Performance optimization:** ✅ Delivered measurable results (+28% Lighthouse, +20% conversions).
+* **Accessibility (WCAG 2.1):** ✅ Lists WCAG expertise explicitly.
+* **Testing (Jest/Cypress):** ✅ Implemented automated tests with Jest/Cypress.
+* **CI/CD:** ✅ Experience with GitHub Actions for continuous integration.
+* **Component libraries / design collaboration:** ✅ Built design system using Storybook, reduced UI bugs by 32%.
+* **State management:** ✅ Redux listed under skills.
+
+---
+
+### **Partial Matches**
+
+* **Analytics:** ⚠️ Resume doesn’t mention analytics specifically; could be inferred from conversion improvements, but not explicit.
+* **Cross-functional collaboration:** ⚠️ Resume implies leadership and technical execution but doesn’t detail collaboration with design/product/analytics teams in narrative form.
+
+---
+
+### **Missing / Nice-to-Haves**
+
+* **Node.js APIs:** ❌ Not listed.
+* **AWS basics:** ❌ No mention of cloud experience.
+
+---
+
+### **Assessment**
+
+* **Overall Fit:** ★★★★☆ (Very strong, \~85–90% match)
+  Alex clearly meets all *core* technical requirements (React, Next.js, TypeScript, performance, WCAG, testing, CI/CD, state mgmt, design systems).
+* **Gaps:** Lacks mention of analytics, Node.js, and AWS. These are “nice to haves,” not core blockers.
+* **Positioning:** Candidate’s metrics (28% perf, 20% conversions, 32% bug reduction) show strong impact, making them attractive for a FinTech setting where performance and reliability are critical.
+
+---
