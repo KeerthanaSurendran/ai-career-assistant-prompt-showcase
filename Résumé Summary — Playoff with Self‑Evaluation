@@ -1,4 +1,7 @@
-# Prompt: 
+PROMPT:
+
+You are an expert career writer. Follow instructions precisely. Be concise.
+
 Using the resume below, generate THREE different 3–4 sentence professional summaries optimized for the provided job description. Then:
 1) Critique each version for tone, clarity, specificity, and keyword alignment.
 2) Select the strongest version and explain briefly (3–5 bullets) why it wins.
@@ -21,7 +24,7 @@ Using the resume below, generate THREE different 3–4 sentence professional sum
 - Final Summary: ...
 - Rationale: (bullets)
 
-# Sample Resume: 
+Sample Resume:
 Name: Alex Sharma | Front-End Developer (6+ yrs)
 Experience: Cognizant — Project Lead & FE Dev (2019–2025)
 - Led React/TS rewrite; Lighthouse perf +28%, conversion +20%.
@@ -29,14 +32,22 @@ Experience: Cognizant — Project Lead & FE Dev (2019–2025)
 - Implemented Jest/Cypress; CI with GitHub Actions.
 Skills: React, TypeScript, Next.js, Redux, Tailwind, Jest, Cypress, Webpack, Accessibility (WCAG), REST/GraphQL.
 
-Output:
+Sample JD:
+Senior Front-End Engineer @ FinTech
+- React + Next.js + TypeScript, state mgmt, performance optimization.
+- Accessibility (WCAG 2.1), testing (Jest/Cypress), CI/CD.
+- Collaborate with design; component libraries; analytics.
+- Nice to have: Node.js APIs, AWS basics.
+
+OUTPUT:
+
 ## Candidates
 
-* **V1:** Front-End Developer with 6+ years at Cognizant, driving high-impact UI transformations. Spearheaded a React/TypeScript migration that boosted Lighthouse scores by 28% and raised conversions 20%. Skilled in building scalable design systems, modern testing frameworks, and CI/CD pipelines. Adept in React, Next.js, Redux, and accessibility standards to deliver performant, user-centered products.
+* **V1:** Senior-level Front-End Developer with 6+ years of experience building performant, accessible, and scalable web apps. At Cognizant, led a React/TypeScript migration with Next.js integration, boosting Lighthouse scores by 28% and conversions by 20%. Designed and maintained a Storybook-driven component library that reduced UI bugs 32%. Skilled in state management, testing (Jest/Cypress), and CI/CD for high-quality delivery.
 
-* **V2:** Experienced Front-End Developer and Project Lead with a proven track record of modernizing enterprise-scale applications. Expert in React, TypeScript, and Next.js, with hands-on success in performance optimization, design system creation, and automated testing. Delivered measurable results, including reduced UI bugs by 32% and enhanced conversion rates by 20%. Strong advocate of accessibility and agile delivery.
+* **V2:** Front-End Engineer with proven expertise in React, Next.js, and TypeScript for enterprise-scale FinTech-ready applications. Delivered measurable results, including a 20% increase in conversions and 28% performance improvement, through modern frameworks and state management. Experienced in accessibility (WCAG 2.1), automated testing pipelines, and collaborative design system development. Adept at CI/CD and cross-functional teamwork for data-driven, customer-focused products.
 
-* **V3:** Results-driven Front-End Developer with 6+ years in delivering performant, accessible, and scalable web applications. At Cognizant, led React/TS adoption, built Storybook-powered design systems, and implemented Jest/Cypress testing integrated into CI/CD pipelines. Achieved tangible business gains through improved site performance and conversion metrics. Skilled collaborator who bridges technical execution with business goals.
+* **V3:** Results-oriented Front-End Developer and Project Lead with 6+ years of experience aligning technical execution to business outcomes. Spearheaded React/TypeScript/Next.js adoption, implemented Jest/Cypress within CI/CD, and established a scalable component system with Storybook. Improved site performance by 28% and reduced UI defects by 32% while ensuring WCAG-compliant accessibility. Brings strong collaboration across design, analytics, and engineering teams to deliver seamless user experiences.
 
 ---
 
@@ -44,35 +55,35 @@ Output:
 
 * **V1:**
 
-  * *Tone:* Impactful, metrics-focused, slightly formal.
-  * *Clarity:* Very clear; highlights outcomes and tools.
-  * *Specificity:* Includes numbers (28%, 20%); good detail.
-  * *Keyword alignment:* Strong—React, TypeScript, Next.js, accessibility, testing.
+  * *Tone:* Strong and technical; slightly achievement-heavy but impactful.
+  * *Clarity:* Very clear, structured, and numbers-driven.
+  * *Specificity:* Excellent—includes metrics, tools, and outcomes.
+  * *Keyword alignment:* Strong—hits React, Next.js, TS, Storybook, testing, CI/CD, accessibility.
 
 * **V2:**
 
-  * *Tone:* Balanced, professional, leadership emphasis.
-  * *Clarity:* Clear but slightly generic in spots ("proven track record," "expert").
-  * *Specificity:* Has numbers (32%, 20%) but leans on broad phrasing.
-  * *Keyword alignment:* Strong but could better highlight CI/CD and modern frameworks.
+  * *Tone:* Professional and targeted to FinTech; emphasizes readiness for domain.
+  * *Clarity:* Clear but a bit repetitive ("measurable results").
+  * *Specificity:* Uses performance metrics but less detailed about tooling (Storybook not mentioned).
+  * *Keyword alignment:* Good—mentions WCAG, CI/CD, analytics, collaboration, but missing component libraries explicitly.
 
 * **V3:**
 
-  * *Tone:* Polished, collaborative, forward-looking.
-  * *Clarity:* Excellent; flows smoothly without jargon.
-  * *Specificity:* Strong detail on tools and workflows, with business impact.
-  * *Keyword alignment:* Excellent—mentions React, TS, Next.js, Storybook, CI/CD, accessibility.
+  * *Tone:* Balanced—technical plus leadership, forward-looking.
+  * *Clarity:* Strong flow; slightly wordy in sentence length.
+  * *Specificity:* Excellent—mentions Storybook, testing, CI/CD, metrics, WCAG.
+  * *Keyword alignment:* Very strong—covers all critical JD points (React, Next.js, TS, testing, accessibility, CI/CD, design, analytics).
 
 ---
 
 ## Winner
 
-* **Final Summary:** Results-driven Front-End Developer with 6+ years in delivering performant, accessible, and scalable web applications. At Cognizant, led React/TS adoption, built Storybook-powered design systems, and implemented Jest/Cypress testing integrated into CI/CD pipelines. Achieved tangible business gains through improved site performance and conversion metrics. Skilled collaborator who bridges technical execution with business goals.
+* **Final Summary:** Results-oriented Front-End Developer and Project Lead with 6+ years of experience aligning technical execution to business outcomes. Spearheaded React/TypeScript/Next.js adoption, implemented Jest/Cypress within CI/CD, and established a scalable component system with Storybook. Improved site performance by 28% and reduced UI defects by 32% while ensuring WCAG-compliant accessibility. Brings strong collaboration across design, analytics, and engineering teams to deliver seamless user experiences.
 
 * **Rationale:**
 
-  * Smoothly balances technical expertise with business impact.
-  * Includes strong keywords (React, TypeScript, Next.js, Storybook, CI/CD, accessibility).
-  * Provides measurable achievements without being overloaded with numbers.
-  * Positions candidate as both hands-on and collaborative, appealing to hiring managers.
-  * Reads natural and confident—neither too stiff nor too vague.
+  * Directly addresses *every* key JD requirement (React, Next.js, TS, accessibility, testing, CI/CD, component libraries, collaboration, analytics).
+  * Balances metrics with leadership and technical depth—shows both execution and results.
+  * Strong keywords ensure ATS optimization without sounding robotic.
+  * Highlights cross-functional collaboration, a big plus for senior roles.
+  * Reads natural, polished, and confidently senior-level.
