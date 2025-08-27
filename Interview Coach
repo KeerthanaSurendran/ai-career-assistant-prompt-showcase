@@ -1,0 +1,64 @@
+PROMPT:
+You are an unbiased interview coach. Be specific and constructive.
+
+Score my answer to the following interview question using this rubric:
+- Structure (STAR): 0–5
+- Impact/metrics: 0–5
+- Technical depth: 0–5
+- Communication clarity: 0–5
+Then provide: (a) 3 strengths, (b) 3 improvements, (c) a stronger re‑write.
+Add a brief bias check: flag any wording that could unfairly penalize the candidate (e.g., gaps, non‑linear path) and suggest neutral phrasing.
+
+
+QUESTION:
+"Tell me about a time you improved performance of a web app."
+
+ANSWER:
+I noticed our main dashboard had a slow TTI. I profiled with Lighthouse and DevTools, found render-blocking scripts and unoptimized images. I code-split routes with dynamic imports, introduced critical CSS, and compressed images via an automated pipeline. TTI improved from ~6.2s to 3.9s on 3G; bounce rate dropped ~12% over two weeks.
+
+OUTPUT:
+Got it—let’s break down your answer as if I were scoring you in a mock interview.
+
+---
+
+## **Scorecard**
+
+* **Structure (STAR): 4/5** – You set up the *Situation* and *Task* briefly, focused heavily on *Action*, and included solid *Results*. A little more context on why the dashboard performance mattered to users or business goals would round it out.
+* **Impact/metrics: 5/5** – Excellent; you gave before/after metrics (TTI from 6.2s → 3.9s, bounce rate –12%). Very compelling.
+* **Technical depth: 5/5** – Strong detail: Lighthouse, DevTools, code-splitting, critical CSS, image optimization pipeline. Shows advanced understanding.
+* **Communication clarity: 4/5** – Clear, concise, technical. Could use slightly smoother narrative flow for interview delivery.
+
+**Total: 18/20 – Strong answer.**
+
+---
+
+## **3 Strengths**
+
+1. **Quantifiable results** – Concrete metrics tie your work to measurable business/user impact.
+2. **Tool familiarity** – Mentions specific tools (Lighthouse, DevTools) that show hands-on expertise.
+3. **Modern performance techniques** – Highlights best practices (code-splitting, critical CSS, automated image compression).
+
+---
+
+## **3 Improvements**
+
+1. **Contextual framing** – Start with *why* the performance issue mattered (e.g., user frustration, FinTech dashboards need speed for decision-making).
+2. **Team/collaboration angle** – Mention working with design, backend, or QA to strengthen cross-functional credibility.
+3. **Narrative flow** – Transition smoothly between discovery, actions, and impact to sound less like a checklist.
+
+---
+
+## **Bias Check**
+
+* ✅ No red flags: You avoided apologetic language, filler, or underselling.
+* ⚠️ Slightly abrupt phrasing (“I noticed”) could imply only personal initiative; reframing as “Our team identified” or “Through monitoring we observed” makes it sound collaborative without diminishing your role.
+
+---
+
+## **Stronger Rewrite (interview delivery style)**
+
+*"On our main dashboard, users were reporting delays that affected engagement. I profiled the app with Lighthouse and DevTools and found render-blocking scripts and large, unoptimized images. To address this, I code-split routes with dynamic imports, applied critical CSS for faster rendering, and set up an automated image compression pipeline. As a result, time-to-interactive dropped from 6.2 seconds to 3.9 seconds on 3G, and bounce rate decreased by 12% over two weeks—directly improving the user experience and customer retention."*
+
+---
+
+Do you want me to also **coach you on how to *say* this answer aloud** (timing, pacing, tone) so it sounds confident and not too “scripted”?
